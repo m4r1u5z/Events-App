@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/preview_transparent_bg">
+
+    <uk.co.senab.photoview.PhotoView
+            android:id="@+id/preview_photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"/>
+
+    <FrameLayout
+            android:id="@+id/preview_close"
+            android:layout_width="@dimen/preview_close_touch_target"
+            android:layout_height="@dimen/preview_close_touch_target"
+            android:layout_gravity="end">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clear_white_24dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:layout_gravity="center"
+                tools:ignore="ContentDescription"/>
+
+    </FrameLayout>
+
+</FrameLayout>

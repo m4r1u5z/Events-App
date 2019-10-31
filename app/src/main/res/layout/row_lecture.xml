@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_half">
+
+    <ImageView
+            android:id="@+id/photo"
+            android:layout_width="@dimen/row_photo_width"
+            android:layout_height="@dimen/row_photo_height"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="ContentDescription"/>
+
+    <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_grey"
+            android:layout_marginEnd="@dimen/margin_half"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/photo"
+            tools:text="18:00"/>
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_big"
+            android:textColor="@color/text_black"
+            android:layout_marginTop="@dimen/margin_half"
+            android:layout_marginEnd="@dimen/margin_half"
+            app:layout_constraintTop_toBottomOf="@+id/time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/photo"
+            tools:text="Great Lecture!"/>
+
+    <TextView
+            android:id="@+id/lecture_author"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/margin_half"
+            android:layout_marginEnd="@dimen/margin_half"
+            app:layout_constraintTop_toBottomOf="@+id/title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/photo"
+            tools:visibility="visible"
+            tools:text="John Snow and his team"/>
+
+    <TextView
+            android:id="@+id/lecture_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_grey"
+            android:textSize="@dimen/text_size_small"
+            android:visibility="gone"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="@dimen/margin_half"
+            android:layout_marginEnd="@dimen/margin_half"
+            app:layout_constraintTop_toBottomOf="@+id/lecture_author"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/photo"
+            tools:visibility="visible"
+            tools:text="Lecture about something interesting"
+            tools:targetApi="o"/>
+
+    <ImageView
+            android:id="@+id/favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_half"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/photo"
+            app:layout_constraintStart_toStartOf="@id/photo"
+            app:layout_constraintEnd_toStartOf="@+id/lecture_super_star"
+            tools:src="@drawable/ic_favorite_red_24dp"
+            tools:visibility="visible"
+            tools:ignore="ContentDescription"/>
+
+    <ImageView
+            android:id="@+id/lecture_super_star"
+            android:layout_width="@dimen/row_icon_size"
+            android:layout_height="@dimen/row_icon_size"
+            android:layout_marginTop="@dimen/margin_half"
+            android:visibility="gone"
+            android:src="@drawable/superstar"
+            app:layout_constraintTop_toBottomOf="@+id/photo"
+            app:layout_constraintStart_toEndOf="@+id/favourite"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:visibility="visible"
+            tools:ignore="ContentDescription"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

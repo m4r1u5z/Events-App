@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <dimen name="margin">16dp</dimen>
+    <dimen name="margin_half">8dp</dimen>
+    <dimen name="text_size_big">16sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+
+    <!-- Tabs -->
+    <dimen name="events_tab_indicator_height">4dp</dimen>
+
+    <!-- Row -->
+    <dimen name="row_photo_height">75dp</dimen>
+    <dimen name="row_photo_width">100dp</dimen>
+    <dimen name="row_icon_size">24dp</dimen>
+
+    <!-- Preview -->
+    <dimen name="preview_close_touch_target">48dp</dimen>
+</resources>

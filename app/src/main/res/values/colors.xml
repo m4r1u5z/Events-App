@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Blue-->
+    <color name="colorPrimary">#019ae8</color>
+    <color name="colorPrimaryDark">#0076bf</color>
+    <color name="colorAccent">#d81b60</color>
+
+    <color name="white_1">#ffffff</color>
+    <color name="white_2">#fafafa</color>
+    <color name="grey_1">#727272</color>
+    <color name="grey_2">#767676</color>
+    <color name="grey_3">#e0e0e0</color>
+    <color name="grey_4">#d0000000</color>
+    <color name="black_1">#111111</color>
+    <color name="blue_1">#b2e2f5</color>
+    <color name="yellow_1">#EC9801</color>
+
+    <color name="events_adapter_item_decorator">@color/grey_3</color>
+    <color name="text_white">@color/white_1</color>
+    <color name="text_black">@color/black_1</color>
+    <color name="text_grey">@color/grey_2</color>
+    <color name="bottom_bar_bg">@color/white_2</color>
+    <color name="bottom_bar_active">@color/colorPrimaryDark</color>
+    <color name="bottom_bar_inactive">@color/grey_1</color>
+    <color name="tab_inactive">@color/blue_1</color>
+    <color name="row_map_bg">@color/yellow_1</color>
+    <color name="preview_transparent_bg">@color/grey_4</color>
+    <color name="splash_screen_bg">@color/white_2</color>
+
+</resources>

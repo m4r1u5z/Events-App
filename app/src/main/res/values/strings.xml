@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Events App</string>
+    <string name="calendar">Calendar</string>
+    <string name="favourites">Favourites</string>
+    <string name="workshops">Workshops</string>
+    <string name="super_star_lecture_info">Lecture takes part in SuperStarLecture competition</string>
+    <string name="buy_tickets">Buy tickets!</string>
+    <string name="favourites_added">Event added to favourites</string>
+    <string name="favourites_removed">Event removed from favourites</string>
+    <string name="facebook_event">Join us on Facebook event</string>
+    <string name="no_favourites_text">You have no favourites so far\nFind them!</string>
+    <string name="splash_screen_retry">Retry</string>
+</resources>

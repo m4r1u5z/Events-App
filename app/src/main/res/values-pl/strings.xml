@@ -1,0 +1,12 @@
+<resources>
+    <string name="calendar">Kalendarz</string>
+    <string name="favourites">Ulubione</string>
+    <string name="workshops">Warsztaty</string>
+    <string name="super_star_lecture_info">Prelekcja bierze udział w konkursie o SuperPrelekcję</string>
+    <string name="buy_tickets">Kup bilety!</string>
+    <string name="favourites_added">Wydarzenie zostało dodane do ulubionych</string>
+    <string name="favourites_removed">Wydarzenie zostało usunięte z ulubionych</string>
+    <string name="facebook_event">Dołącz do wydarzenia na Facebooku</string>
+    <string name="no_favourites_text">Nie masz obecnie żadnych ulubionych prelekcji!\nZnajdź je!</string>
+    <string name="splash_screen_retry">Spróbuj ponownie</string>
+</resources>
