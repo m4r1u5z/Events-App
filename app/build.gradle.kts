@@ -13,6 +13,7 @@ android {
         versionCode = 1
         versionName = "0.0.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "${applicationId}-v${versionName}(${versionCode})")
     }
     buildTypes {
         getByName("release") {
@@ -30,14 +31,14 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41")
-    implementation("androidx.appcompat:appcompat:1.1.0-rc01")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61")
+    implementation("androidx.appcompat:appcompat:1.2.0-alpha01")
     implementation("androidx.constraintlayout:constraintlayout:1.1.3")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("com.squareup.picasso:picasso:2.71828")
-    implementation("com.google.android.material:material:1.1.0-alpha07")
+    implementation("com.google.android.material:material:1.2.0-alpha02")
     implementation("com.github.chrisbanes.photoview:library:1.2.4")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0")
     implementation("com.squareup.retrofit2:retrofit:2.5.0")
     implementation("com.squareup.retrofit2:converter-gson:2.5.0")
     implementation("com.squareup.okhttp3:logging-interceptor:3.14.0")
